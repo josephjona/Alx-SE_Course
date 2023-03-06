@@ -1,0 +1,35 @@
+Great job! To handle this exercise, you can follow these steps:
+
+Switch to the update_script branch using the command git checkout update_script.
+
+Create an empty file named 98 in the bash directory using the command touch bash/98.
+
+Update the bash/alx file by replacing echo "ALX" with echo "ALX School" using a text editor or the command sed -i 's/ALX/ALX School/g' bash/alx.
+
+Update the bash/school file by replacing echo "School" with echo "The school is open!" using a text editor or the command sed -i 's/School/The school is open!/g' bash/school.
+
+Add the changes using the command git add ..
+
+Commit the changes with the message "My personal work" using the command git commit -m "My personal work".
+
+Push the new branch to the origin using the command git push -u origin update_script.
+
+Switch to the main branch using the command git checkout main.
+
+Update the bash/alx file by replacing echo "ALX" with echo "ALX School is so cool!" using a text editor or the command sed -i 's/ALX/ALX School is so cool!/g' bash/alx.
+
+Delete the js directory using the command rm -r js.
+
+Add the changes using the command git add ..
+
+Commit the changes with the message "Hot fix" using the command git commit -m "Hot fix".
+
+Push the changes to the origin using the command git push origin main.
+
+Now your changes are committed and pushed to the main branch, and your hot fix has been deployed. Congratulations!
+
+
+
+
+
+Regenerate r
